@@ -7,20 +7,20 @@ Three exercises demonstrating regression modelling concepts in R.
 In a manufacturing study, the production times for 111 recent production runs were obtained. 
 The data table lists for each run the production time in hours (Y) and the production lot size (X).
 
-<img src="" alt="Production Time- Scatter Plot" width="300" height="auto"/>
+<img alt="Production Time- Scatter Plot" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Production_Scatter.png"/>
 
 This appears to be a non-linear relationship, likely exponential. 
 
-<img src="" alt="Production Time - Transformed Scatter Plot" width="300" height="auto"/>
+<img alt="Production Time - Transformed Scatter Plot" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Production_TransformedScatter.png"/>
 
 We use the transformation X'=sqrt(X) to convert the data into a linear one. Then we create a linear
 regression model to fit the data (red line).
 
-<img src="" alt="Production Time - Residuals" width="300" height="auto"/>
+<img alt="Production Time - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Production_Residuals.png"/>
 
 The residuals appear to be symmetric about the horizontal axis, implying that the data is normally distributed.
 
-<img src="" alt="Production Time - Normality Distribution" width="300" height="auto"/>
+<img alt="Production Time - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Production_QQ.png"/>
 
 This normality distribution (Q-Q) plot clearly shows that the data is normally distributed. Here we plot the 
 residuals against a normal distribution, resulting in a clear linear relationship.
@@ -37,7 +37,7 @@ Fit a regression model to generic dataset "Data1.txt"
 
 <img alt="Data1 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_ResidualsHistogram.png"/>
 
-<img alt="Data1 - Normality Distribution" width="300" height="auto"src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_QQ.png"/>
+<img alt="Data1 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_QQ.png"/>
 
 ### Data 2
 
@@ -49,7 +49,7 @@ Fit a regression model to generic dataset "Data2.txt"
 
 <img alt="Data2 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_ResidualsHistogram.png"/>
 
-<img alt="Data2 - Normality Distribution" width="300" height="auto"src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_QQ.png"/>
+<img alt="Data2 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_QQ.png"/>
 
 ### Data 3
 
