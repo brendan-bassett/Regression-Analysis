@@ -24,7 +24,7 @@ plot(x =PT_X,
      ylab = "Time (Hr)", 
      xlim = c(0, max(PT_X)), 
      ylim = c(0, max(PT_Y)), 
-     main = "Production Time - Scatter Plot")
+     main = "Prod. Time - Scatter")
 
 #    [b] Use the transformation X' = sqrt(X) and obtain the estimated linear 
 #    regression function for the transformed data.
@@ -49,7 +49,7 @@ plot(x = PT_X1,
      ylab = "Time (Hr)", 
      xlim = c(0, max(PT_X1)), 
      ylim = c(0, max(PT_Y)), 
-     main = "Production Time - Transformed Scatter Plot")
+     main = "Prod. Time - Transformed Scatter")
 
 #       Plot the regression line over the data.
 
@@ -66,7 +66,7 @@ plot(x = PT_X1,
      ylab = "Residuals", 
      xlim = c(0, max(PT_X1)), 
      ylim = c(min(PT_res), max(PT_res)), 
-     main = "Production Time - Residuals")
+     main = "Prod. Time - Residuals")
 
 abline(0, 0, col="black", lty=2, lwd=1)
 
@@ -75,7 +75,7 @@ abline(0, 0, col="black", lty=2, lwd=1)
 qqnorm(PT_res,
        ylab = "Residuals", 
        xlab = "Normal Scores", 
-       main = "Production Time - Q-Q Plot") 
+       main = "Prod. Time - Normal Distribution (Q-Q)") 
 
 qqline(PT_res, col="blue", lwd=1)
 
@@ -87,7 +87,7 @@ PT_summary$coefficients[ , 2]
 
 # ______________________________________________________________________________
 
-# [2] Refer to the data sets: "Number One", "Number Two", Number Three".
+# [2] Refer to the data sets: "Data1", "Data2", Data3".
 #
 # For each one, obtain: 
 # [i] The scatter plot
@@ -97,11 +97,11 @@ PT_summary$coefficients[ , 2]
 # Report your findings.
 
 # _________________________
-# NUMBER ONE
+# DATA1
 
-# Load the data from 'Number One.txt' and fit to a linear regression model.
+# Load the data from 'Data1.txt' and fit to a linear regression model.
 
-One <- read.table('Number One.txt', header=FALSE)
+One <- read.table('Data1.txt', header=FALSE)
 One_X <- One$V1
 One_Y <- One$V2
 
@@ -120,7 +120,7 @@ plot(x = One_X,
      ylab = "Y", 
      xlim = c(0, max(One_X)), 
      ylim = c(min(One_Y), max(One_Y)), 
-     main = "Number One - Scatter Plot")
+     main = "Data1 - Scatter Plot")
 
 abline(One_model, col="red", lwd=3)
 
@@ -134,7 +134,7 @@ plot(x = One_X,
      ylab = "Residuals", 
      xlim = c(0, max(One_X)), 
      ylim = c(min(One_res), max(One_res)), 
-     main = "Number One - Residuals")
+     main = "Data1 - Residuals")
 
 abline(0, 0, col="black", lty=2, lwd=1)
 
@@ -144,14 +144,14 @@ hist(One_res,
      breaks = seq(-40, 40, 5),
      xlab = "Residuals", 
      ylab = "Frequency", 
-     main = "Number One - Residuals Histogram")
+     main = "Data1 - Residuals Histogram")
 
 abline(v=0, col="black", lwd=2)
 
 qqnorm(One_res,
        xlab = "Normal Scores", 
        ylab = "Residuals", 
-       main = "Number One - Q-Q Plot") 
+       main = "Data1 - Normal Distribution (Q-Q)") 
 
 qqline(One_res, col="blue", lwd = 1)
 
@@ -164,9 +164,10 @@ qqline(One_res, col="blue", lwd = 1)
 # is not fully normally distributed.
 #
 # _________________________
-# NUMBER TWO
+# 
+# DATA2
 
-Two <- read.table('Number Two.txt', header=FALSE)
+Two <- read.table('Data2.txt', header=FALSE)
 Two_X <- Two$V1
 Two_Y <- Two$V2
 
@@ -183,7 +184,7 @@ plot(x = Two_X,
      ylab = "Y", 
      xlim = c(0, max(Two_X)), 
      ylim = c(min(Two_Y), max(Two_Y)), 
-     main = "Number Two - Scatter Plot")
+     main = "Data2 - Scatter")
 
 abline(Two_model, col="red", lwd=3)
 
@@ -197,7 +198,7 @@ plot(x = Two_X,
      ylab = "Residuals", 
      xlim = c(0, max(Two_X)), 
      ylim = c(min(Two_res), max(Two_res)), 
-     main = "Number Two - Residuals")
+     main = "Data2 - Residuals")
 
 abline(0, 0, col="black", lty=2, lwd=1)
 
@@ -210,14 +211,14 @@ hist(Two_res,
      breaks = seq(-700, 700, 100),
      xlab = "Residuals", 
      ylab = "Frequency", 
-     main = "Number Two - Residuals Histogram")
+     main = "Data2 - Residuals Histogram")
 
 abline(v=0, col="black", lwd=2)
 
 qqnorm(Two_res,
        xlab = "Normal Scores", 
        ylab = "Residuals", 
-       main = "Number Two - Q-Q Plot") 
+       main = "Data2 - Normal Distribution (Q-Q)") 
 
 qqline(Two_res, col = "blue", lwd = 1)
 
@@ -239,9 +240,9 @@ qqline(Two_res, col = "blue", lwd = 1)
 # is not normally distributed.
 #
 # _________________________
-# NUMBER THREE
+# DATA3
 
-Three <- read.table('Number Three.txt', header=FALSE)
+Three <- read.table('Data3.txt', header=FALSE)
 Three_X <- Three$V1
 Three_Y <- Three$V2
 
@@ -258,7 +259,7 @@ plot(x = Three_X,
      ylab = "Y", 
      xlim = c(0, max(Three_X)), 
      ylim = c(min(Three_Y), max(Three_Y)), 
-     main = "Number Three - Scatter Plot")
+     main = "Data3 - Scatter")
 
 abline(Three_model, col="red", lwd=3)
 
@@ -272,7 +273,7 @@ plot(x = Three_X,
      ylab = "Residuals", 
      xlim = c(0, max(Three_X)), 
      ylim = c(min(Three_res), max(Three_res)), 
-     main = "Number Three - Residuals")
+     main = "Data3 - Residuals")
 
 abline(0, 0, col="black", lty=2, lwd=1)
 
@@ -285,14 +286,14 @@ hist(Three_res,
      breaks = seq(-450, 450, 50),
      xlab = "Residuals", 
      ylab = "Frequency", 
-     main = "Number Three - Residuals Histogram")
+     main = "Data3 - Residuals Histogram")
 
 abline(v=0, col="black", lwd=2)
 
 qqnorm(Three_res,
        xlab = "Normal Scores", 
        ylab = "Residuals", 
-       main = "Number Three - Q-Q Plot") 
+       main = "Data3 - Normal Distribution (Q-Q)") 
 
 qqline(Three_res, col = "blue", lwd = 1)
 
