@@ -1,6 +1,6 @@
 # Regression Analysis
 
-Four exercises demonstrating regression modelling concepts in R.
+Three exercises demonstrating regression modelling concepts in R.
 
 ## 1. Production Time
 
@@ -25,40 +25,42 @@ The residuals appear to be symmetric about the horizontal axis, implying that th
 This normality distribution (Q-Q) plot clearly shows that the data is normally distributed. Here we plot the 
 residuals against a normal distribution, resulting in a clear linear relationship.
 
-## 2. Data 1
+## 2. Generic Datasets
 
-Fit a linear regression model to generic dataset "Data1.txt"
+### Data 1
 
-<alt="Data1 - Scatter" width="300" height="auto" img src=""/>
+Fit a regression model to generic dataset "Data1.txt"
 
-<alt="Data1 - Residuals" width="300" height="auto" img src=""/>
+<img alt="Data1 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_Scatter.png"/>
 
-<alt="Data1 - Residuals Histogram" width="300" height="auto" img src=""/>
+<img alt="Data1 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_Residuals.png"/>
 
-<alt="Data1 - Normality Distribution" width="300" height="auto"img src=""/>
+<img alt="Data1 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_ResidualsHistogram.png"/>
 
-## 3. Data 2
+<img alt="Data1 - Normality Distribution" width="300" height="auto"src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_QQ.png"/>
 
-Fit a linear regression model to generic dataset "Data2.txt"
+### Data 2
 
-<alt="Data2 - Scatter" width="300" height="auto" img src=""/>
+Fit a regression model to generic dataset "Data2.txt"
 
-<alt="Data2 - Residuals" width="300" height="auto" img src=""/>
+<img alt="Data2 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_Scatter.png"/>
 
-<alt="Data2 - Residuals Histogram" width="300" height="auto" img src=""/>
+<img alt="Data2 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_Residuals.png"/>
 
-<alt="Data2 - Normality Distribution" width="300" height="auto"img src=""/>
+<img alt="Data2 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_ResidualsHistogram.png"/>
 
-## 4. Data 3
+<img alt="Data2 - Normality Distribution" width="300" height="auto"src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_QQ.png"/>
 
-Fit a linear regression model to generic dataset "Data3.txt"
+### Data 3
 
-<alt="Data3 - Scatter" width="300" height="auto" img src=""/>
+Fit a regression model to generic dataset "Data3.txt"
 
-<alt="Data3 - Residuals" width="300" height="auto" img src=""/>
+<img alt="Data3 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_Scatter.png"/>
 
-<alt="Data3 - Residuals Histogram" width="300" height="auto" img src=""/>
+<img alt="Data3 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_Residuals.png"/>
 
-<alt="Data3 - Normality Distribution" width="300" height="auto"img src=""/>
+<img alt="Data3 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_ResidualsHistogram.png"/>
 
-## 5. Commercial Properties
+<img alt="Data3 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_QQ.png"/>
+
+## 3. Commercial Properties
