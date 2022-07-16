@@ -59,7 +59,7 @@ Residuals:
 
 Coefficients:
 
-|   | Estimate | Std. Error | t value | Pr(>|t|) |   |
+| . | Estimate | Std. Error | t value | Pr(>|t|) |   |
 | - | -------- | ---------- | ------- | -------- | - |
 | (Intercept) | -521828 | 86089 | -6.062 | 4.83e-08 | \*** |
 | CP_X1 | 38000 | 6641 | 5.722 | 1.98e-07 | \*** |
@@ -77,7 +77,7 @@ Residual standard error: 78730 on 76 degrees of freedom
 
 \-\-\- XTX \-\-\-
 
-|   | CP_X1 | CP_X2 | CP_X3 | CP_X4 | CP_Y |
+| . | CP_X1 | CP_X2 | CP_X3 | CP_X4 | CP_Y |
 | - | ----- | ----- | ----- | ----- | ---- |
 | CP_X1 | 2.956969e+00 | -2.854653e+00 | 1.838032e+00 | 0.01539236 | 1.004178e+05 |
 | CP_X2 | -2.854653e+00 | 4.399383e+01 | 6.661995e+00 | -0.22548920 | 2.088276e+05 |
