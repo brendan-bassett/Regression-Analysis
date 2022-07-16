@@ -7,7 +7,8 @@ Some exercises demonstrating regression modelling concepts in R.
 In a manufacturing study, the production times for 111 recent production runs were obtained. 
 The data table lists for each run the production time in hours (Y) and the production lot size (X).
 
-<img src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Production%20Time%20-%20Scatter%20Plot" alt="Production Time" width="300"/>
+<img src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Production%20Time%20-%20Scatter%20Plot" alt="Production Time" width="300" height="auto"/>
+
 ![Production Time - Scatter Plot](https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Production%20Time%20-%20Scatter%20Plot)
 
 This appears to be a non-linear relationship, likely exponential. 
