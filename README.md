@@ -104,14 +104,6 @@ F-statistic: 19.41 on 4 and 76 DF,  p-value: 4.902e-11
 
 Fit a regression model to generic dataset "Data1.txt". Analyze the results.
 
-<img alt="Data1 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_Scatter.png"/>
-
-<img alt="Data1 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_Residuals.png"/>
-
-<img alt="Data1 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_ResidualsHistogram.png"/>
-
-<img alt="Data1 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_QQ.png"/>
-
 Conclusions: 
 
 The variance of this data increases as X increases. That is why the 
@@ -122,18 +114,18 @@ forms a normal bell curve. However, the Q-Q plot shows us that the data points
 with high residuals deviate from the normal distribution. Therefore the data 
 is not fully normally distributed.
 
+<img alt="Data1 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_Scatter.png"/>
+
+<img alt="Data1 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_Residuals.png"/>
+
+<img alt="Data1 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_ResidualsHistogram.png"/>
+
+<img alt="Data1 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data1_QQ.png"/>
+
 
 ### Data 2
 
 Fit a regression model to generic dataset "Data2.txt". Analyze the results.
-
-<img alt="Data2 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_Scatter.png"/>
-
-<img alt="Data2 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_Residuals.png"/>
-
-<img alt="Data2 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_ResidualsHistogram.png"/>
-
-<img alt="Data2 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_QQ.png"/>
 
 Conclusions:
 
@@ -154,18 +146,18 @@ as it does not appear to be similar to a normal bell distribution. The Q-Q
 plot also shows that the data does not closely follow the normal line, so it 
 is not normally distributed.
 
+<img alt="Data2 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_Scatter.png"/>
+
+<img alt="Data2 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_Residuals.png"/>
+
+<img alt="Data2 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_ResidualsHistogram.png"/>
+
+<img alt="Data2 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data2_QQ.png"/>
+
 
 ### Data 3
 
 Fit a regression model to generic dataset "Data3.txt". Analyze the results.
-
-<img alt="Data3 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_Scatter.png"/>
-
-<img alt="Data3 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_Residuals.png"/>
-
-<img alt="Data3 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_ResidualsHistogram.png"/>
-
-<img alt="Data3 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_QQ.png"/>
 
 Conclusions:
 
@@ -177,3 +169,10 @@ distribution is not normal. The Q-Q plot shows that there many outliers in
 both the upper and lower range, though the data towards the center appears to 
 be somewhat normal.
 
+<img alt="Data3 - Scatter" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_Scatter.png"/>
+
+<img alt="Data3 - Residuals" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_Residuals.png"/>
+
+<img alt="Data3 - Residuals Histogram" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_ResidualsHistogram.png"/>
+
+<img alt="Data3 - Normality Distribution" width="300" height="auto" src="https://github.com/brendan-bassett/Regression-Analysis/blob/main/output/Data3_QQ.png"/>
