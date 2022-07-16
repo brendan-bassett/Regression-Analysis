@@ -1,6 +1,6 @@
 # Regression Analysis
 
-Three exercises demonstrating regression modelling, analysis, and data visualization in R.
+Three exercises in R demonstrating regression modelling, data visualization, and analysis.
 
 ## 1. Production Time
 
@@ -47,7 +47,9 @@ Also indicated by the output from CP_summary(see below), the R-squared is 0.5052
 R-squared is the proportion of the variance in the response variable of the regression model that 
 can be explained by the variance of the predictor variables.
 
-### Console Output (reformatted for readability)
+### Console Output 
+
+(reformatted for readability)
 
 \-\-\- CP_summary \-\-\-
 
