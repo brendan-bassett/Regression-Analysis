@@ -36,7 +36,7 @@ Fit a multiple regression model against all predictor variables. Write out the r
 and state which regression coefficients are significant at level P=0.05. Then report the value of 
 the multiple R-squared and explain its meaning. Finally, display the matrices XTX and XTX^-1.
 
-Results:
+### Results:
 
 The regression equation is    Y = -521828 + 38000*x1 + 7428*x2 + 3755*x3 + 152945*x4.
 
@@ -47,12 +47,9 @@ Also indicated by the output from CP_summary(see below), the R-squared is 0.5052
 R-squared is the proportion of the variance in the response variable of the regression model that 
 can be explained by the variance of the predictor variables.
 
+### Console Output (reformatted for readability)
 
-*** CP_summary ***
-
-Call:
-
-lm(formula = CP_Y ~ CP_X1 + CP_X2 + CP_X3 + CP_X4, data = CP_Frame)
+\-\-\- CP_summary \-\-\-
 
 Residuals:
 
@@ -61,35 +58,39 @@ Residuals:
 |-136314 | -55193 | -6134 | 40672 | 248457 |
 
 Coefficients:
-            Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  -521828      86089  -6.062 4.83e-08 ***
-CP_X1          38000       6641   5.722 1.98e-07 ***
-CP_X2           7428       1653   4.494 2.46e-05 ***
-CP_X3           3755       4896   0.767   0.4455    
-CP_X4         152945      73352   2.085   0.0404 *  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+| | Estimate | Std. Error | t value | Pr(>|t|) | |
+| (Intercept) | -521828 | 86089 | -6.062 | 4.83e-08 | \*** |
+| CP_X1 | 38000 | 6641 | 5.722 | 1.98e-07 | \*** |
+| CP_X2 | 7428 | 1653 | 4.494 | 2.46e-05 | \*** |
+| CP_X3 | 3755 | 4896 | 0.767 | 0.4455 | |   
+| CP_X4 | 152945 | 73352 | 2.085 | 0.0404 | \* |  
+
+\-\-\-
+
+Signif. codes:  0 ‘\*\*\*’ 0.001 ‘\*\*’ 0.01 ‘\*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 78730 on 76 degrees of freedom
-Multiple R-squared:  0.5053,	Adjusted R-squared:  0.4793 
-F-statistic: 19.41 on 4 and 76 DF,  p-value: 4.902e-11
+\nMultiple R-squared:  0.5053,	Adjusted R-squared:  0.4793 
+\nF-statistic: 19.41 on 4 and 76 DF,  p-value: 4.902e-11
 
-*** XTX ***
-              CP_X1         CP_X2         CP_X3         CP_X4         CP_Y
-CP_X1  2.956969e+00 -2.854653e+00  1.838032e+00    0.01539236 1.004178e+05
-CP_X2 -2.854653e+00  4.399383e+01  6.661995e+00   -0.22548920 2.088276e+05
-CP_X3  1.838032e+00  6.661995e+00  6.672760e+00   -0.13199315 1.241977e+05
-CP_X4  1.539236e-02 -2.254892e-01 -1.319931e-01    0.01810401 1.183316e+03
-CP_Y   1.004178e+05  2.088276e+05  1.241977e+05 1183.31635340 1.190258e+10
+\-\-\- XTX \-\-\-
 
-*** XTX^-1 ***
+| | CP_X1 | CP_X2 | CP_X3 | CP_X4 | CP_Y |
+| CP_X1 | 2.956969e+00 | -2.854653e+00 | 1.838032e+00 | 0.01539236 | 1.004178e+05 |
+| CP_X2 | -2.854653e+00 | 4.399383e+01 | 6.661995e+00 | -0.22548920 | 2.088276e+05 |
+| CP_X3 | 1.838032e+00 | 6.661995e+00 | 6.672760e+00 | -0.13199315 | 1.241977e+05 |
+| CP_X4 | 1.539236e-02 | -2.254892e-01 | -1.319931e-01 | 0.01810401 | 1.183316e+03 |
+| CP_Y | 1.004178e+05 | 2.088276e+05 | 1.241977e+05 | 1183.31635340 | 1.190258e+10 |
 
-              CP_X1         CP_X2         CP_X3         CP_X4          CP_Y
-CP_X1  8.144102e-01  1.156737e-01 -2.296771e-01 -5.043997e-01 -6.453632e-06
-CP_X2  1.156737e-01  4.462324e-02 -4.937591e-02  1.799052e-01 -1.261471e-06
-CP_X3 -2.296771e-01 -4.937591e-02  3.117807e-01  1.895107e+00 -6.376961e-07
-CP_X4 -5.043997e-01  1.799052e-01  1.895107e+00  7.342064e+01 -2.597472e-05
-CP_Y  -6.453632e-06 -1.261471e-06 -6.376961e-07 -2.597472e-05  1.698309e-10
+\-\-\- XTX^-1 \-\-\-
+
+| | CP_X1 | CP_X2 | CP_X3 | CP_X4 | CP_Y |
+| CP_X1  | 8.144102e-01 | 1.156737e-01 | -2.296771e-01 | -5.043997e-01 | -6.453632e-06 |
+| CP_X2 | 1.156737e-01 | 4.462324e-02 | -4.937591e-02 | 1.799052e-01 | -1.261471e-06 |
+| CP_X3 | -2.296771e-01 | -4.937591e-02 | 3.117807e-01 | 1.895107e+00 | -6.376961e-07 |
+| CP_X4 | -5.043997e-01 | 1.799052e-01 | 1.895107e+00 | 7.342064e+01 | -2.597472e-05 |
+| CP_Y  | -6.453632e-06 | -1.261471e-06 | -6.376961e-07 | -2.597472e-05 | 1.698309e-10 |
 
 
 ## 3. Generic Datasets
