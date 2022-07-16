@@ -54,13 +54,13 @@ can be explained by the variance of the predictor variables.
 Residuals:
 
 | Min | 1Q | Median | 3Q | Max |
-| --- | -- | ------ | -- | --- |
+| - | - | - | - | - |
 |-136314 | -55193 | -6134 | 40672 | 248457 |
 
 Coefficients:
 
-| . | Estimate | Std. Error | t value | Pr(>|t|) |   |
-| - | -------- | ---------- | ------- | -------- | - |
+|   | Estimate | Std. Error | t value | Pr(>|t|) |   |
+| - | - | - | ------- | -------- | - |
 | (Intercept) | -521828 | 86089 | -6.062 | 4.83e-08 | \*** |
 | CP_X1 | 38000 | 6641 | 5.722 | 1.98e-07 | \*** |
 | CP_X2 | 7428 | 1653 | 4.494 | 2.46e-05 | \*** |
@@ -72,13 +72,15 @@ Coefficients:
 Signif. codes:  0 ‘\*\*\*’ 0.001 ‘\*\*’ 0.01 ‘\*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 78730 on 76 degrees of freedom
-\nMultiple R-squared:  0.5053,	Adjusted R-squared:  0.4793 
-\nF-statistic: 19.41 on 4 and 76 DF,  p-value: 4.902e-11
+
+Multiple R-squared:  0.5053,	Adjusted R-squared:  0.4793 
+
+F-statistic: 19.41 on 4 and 76 DF,  p-value: 4.902e-11
 
 \-\-\- XTX \-\-\-
 
-| . | CP_X1 | CP_X2 | CP_X3 | CP_X4 | CP_Y |
-| - | ----- | ----- | ----- | ----- | ---- |
+|   | CP_X1 | CP_X2 | CP_X3 | CP_X4 | CP_Y |
+| - | - | - | - | - | - |
 | CP_X1 | 2.956969e+00 | -2.854653e+00 | 1.838032e+00 | 0.01539236 | 1.004178e+05 |
 | CP_X2 | -2.854653e+00 | 4.399383e+01 | 6.661995e+00 | -0.22548920 | 2.088276e+05 |
 | CP_X3 | 1.838032e+00 | 6.661995e+00 | 6.672760e+00 | -0.13199315 | 1.241977e+05 |
@@ -88,7 +90,7 @@ Residual standard error: 78730 on 76 degrees of freedom
 \-\-\- XTX^-1 \-\-\-
 
 |   | CP_X1 | CP_X2 | CP_X3 | CP_X4 | CP_Y |
-| - | ----- | ----- | ----- | ----- | ---- |
+| - | - | - | - | - | - |
 | CP_X1  | 8.144102e-01 | 1.156737e-01 | -2.296771e-01 | -5.043997e-01 | -6.453632e-06 |
 | CP_X2 | 1.156737e-01 | 4.462324e-02 | -4.937591e-02 | 1.799052e-01 | -1.261471e-06 |
 | CP_X3 | -2.296771e-01 | -4.937591e-02 | 3.117807e-01 | 1.895107e+00 | -6.376961e-07 |
