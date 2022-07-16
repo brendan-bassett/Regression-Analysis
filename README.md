@@ -51,11 +51,14 @@ can be explained by the variance of the predictor variables.
 *** CP_summary ***
 
 Call:
+
 lm(formula = CP_Y ~ CP_X1 + CP_X2 + CP_X3 + CP_X4, data = CP_Frame)
 
 Residuals:
-    Min      1Q  Median      3Q     Max 
--136314  -55193   -6134   40672  248457 
+
+| Min | 1Q | Median | 3Q | Max |
+| --- | -- | ------ | -- | --- |
+|-136314 | -55193 | -6134 | 40672 | 248457 |
 
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
